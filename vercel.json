@@ -1,0 +1,20 @@
+{
+    "redirects": [
+      {
+        "source": "/",
+        "destination": "/car-showroom",
+        "permanent": true
+      }
+    ],
+    "rewrites": [
+      {
+        "source": "/car-showroom/:path*",
+        "destination": "https://car-showroom-w9uw.vercel.app/:path*"
+      },
+      {
+        "source": "/techblog/:path*",
+        "destination": "https://techblog-phi.vercel.app/:path*"
+      }
+    ]
+  }
+  
